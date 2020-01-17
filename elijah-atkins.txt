@@ -1,0 +1,112 @@
+Part two link.
+https://codepen.io/elijahTheSane/pen/xxbJXxy
+    1. What is Semantic HTML? 
+	    html with tags used to give content meaning
+    2. What is HTML used for? 
+	    for creating and structuring web pages.
+    3. What is an attribute and where do we put it?
+	    attributes are additional information about an element, attributes are always specified in the start tag. ie. name="value" 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	    <h1> Should be used for main headings. it should only be used once per page.
+    5. Name two tags that have required attributes
+	    anchor <a...> and image <img...>
+    6. What do we put in the head of our HTML document?
+	    Head contains metadata like <title>, <style>, <meta>, <link>, <script>
+    7. What is an id? 
+	    attribute that specifies a unique id for an HTML element
+    8. What elements can I add an id to? 
+	    on any HTML element
+    9. How many times can I use the same id on a page? 
+	    once per page
+    10. What is a class?
+	    attribute that is used to define equal styles for elements with the same class name. 
+    11. What elements can I add a class to? 
+	    any HTML element
+    12. How many times can I use the same class on a page?
+	    as many as you need 
+    13. How do I get my link to open in a new tab?
+	    Use target attribute in <a> tag with value "_blank" <a href=" target"_blank">
+    14. What is the alt attribute used for? 
+	    alt is used in image tags to provide alternate text for an image.
+    15. How do I reference an id?
+	    with a # before the id name.
+    16. What is the difference between a section and a div
+	    section defines sections in a document. Div is a container for html elements to style them with css or perform certain tasks with JavaScript
+    17. What is CSS used for? 
+	    CSS describes how HTML elements should be displayed.
+    18. How to we select an element? Example - every h2 on the page
+	    name of element with curly brackets. h2 {   }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	    Class is selected with '.name' format and can apply to multiple elements
+ 	    ID is selected with '#name' and can only apply to one element.
+    20. How do we select classes in CSS?
+	    with a '.name {}' format
+    21. How do we select a p element with a single class of “human””?
+	    .human p{}
+    22. What is a parent child selector? When would this be useful?
+        .class1 .class2 {} selects all elements with name class2 that is a descendant of an element with class1
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a{ }
+    24. What is a pseudo selector?
+        a way to call pseudo classes. a normal selector followed by : and the name of class like ':hover'
+    25. What do we use the change the spacing between lines?
+        "line-height:"
+    26. What do we use to change the spacing between letters?
+        "letter-spacing:"
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: followed by capitalize; lowercase; or uppercase; respectively
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
+    29. How do I select everything on the page? 
+        use * {}
+    30. How do I write a comment in CSS?
+        // or /* --stuff-- */
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm path/to/file.ext  it will delete the file without prompting
+    34. Why should I use version control? 
+        There are many benefits of using a version control including easier collaboration, 
+        storing versions properly, and being able to restore previous versions.
+    35. How often should I commit to github?
+        Whenever a new segment of code is working
+    36. What is the command we would use to push our repo up to github? 
+        git push -u origin firstname-lastname
+    37. Walk me through Lambda's git flow. 
+        1. Create my own version of repo with Fork
+        2. Add my TL as a collaborator.
+        3. Clone my repo.
+            git clone <your-repo-address> 
+        4. Create a branch
+            cd \localRepoDirectory\
+            git checkout -b 'elijah-atkins'
+        5. Push your new branch up GitHub and make all future pushes to that branch
+            git push -u origin elijah-atkins
+            on GitHub: Compare & Pull Request -> Base: YOUR MASTER, compare fork:YOUR Fork
+        6 Add your TL as a reviewer on the Pull Request
+            on the 'open a pull request' page click on Reviewers. If your TL has accepted your 
+            invite, then you should be able to select them here. If not, then they haven't 
+            accepted the invite, and come back later...
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        inline allows for elements to be nested without disrupting flow.  
+        You can't put block elements inside inline elements
+    2. What happens when an element is positioned absolutely? 
+        the position is fixed. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        make it an inline element. 
+    4. Name 3 elements that are display block by default, 2 elements that are displayed inline by default and 1 element that is display inline-block by default
+        display block
+        <div></div> & <p></p>
+        display inline
+        <a></a> & <span></span>
+    5. In your own words, explain the box model. What is the fix for the box model?
+        The box model is a web design with a focus on boxes and their respective 
+        content, padding, border, and margin. 
+        
+
+
